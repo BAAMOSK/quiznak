@@ -9,14 +9,15 @@
 
 .quiz {
 	width: 70%;
-	height: 500px;
+	min-height: 500px;
+	height: auto;
 	margin-top: 50px;
 	border: 1px solid black;
 	border-radius: 15px;
 	background-color: lightslategray;
 	margin: 0 auto;
 	color: black;
-	text-align: center;
+/*	text-align: center;*/
 }
 
 p {
@@ -26,7 +27,65 @@ p {
 }
 
 button {
-	margin-top: 15%;
+	margin: 0 25px;
 	font-size: 2em;
 	border-radius: 10px;
 }
+
+.status {
+	float: left;
+	padding: 25px 25px;;
+}
+
+.score {
+	float: right;
+	padding: 25px 25px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.question {
+	text-align: center;
+}
+
+#answers {
+	margin: 0;
+	padding: 0;
+}
+
+#start {
+  text-align: center;	
+}
+
+#submit {
+/*	height: 290px;*/
+	display: inline-block;
+	float: left;
+}
+
+input[type=radio] {	
+/*
+	width: 35px;
+	height: 3em;
+*/
+	display: inline-block;
+}
+
+.result {
+	margin: 20px;
+	padding: 20px
+}
+
+label {
+	text-align: right;  
+}
+
+
+
+
+
+
+
+
