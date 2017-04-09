@@ -1,0 +1,32 @@
+* {
+	margin: none;
+	padding: none;
+}
+
+.container {
+	margin-top: 5%;
+}
+
+.quiz {
+	width: 70%;
+	height: 500px;
+	margin-top: 50px;
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: lightslategray;
+	margin: 0 auto;
+	color: black;
+	text-align: center;
+}
+
+p {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+button {
+	margin-top: 15%;
+	font-size: 2em;
+	border-radius: 10px;
+}
